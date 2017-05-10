@@ -1,0 +1,31 @@
+1. It helped me to find differences easily , but still quite a bit tideous task.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Ans : I can go back any time to the previous working code, if i made any blunders.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Ans : Manually choosing when to commit can make lot of sense but can lead to human error.
+Problem with auto saving feature is it saves too many versions.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Ans : Because in coding all the files are inter-related, so a commit must change all the files, so that user can differentiate between the files.
+Ex: git --stat >>>>>>>>> shows which files are changed
+    git diff {ID1} {ID2}
+
+How can you use the commands git log and git diff to view the history of files?
+Ans : git log >>>>>>> To view history
+	 git diff {ID1} {ID2}
+
+How might using version control make you more confident to make changes that could break something?
+Ans : Now I can easily identify the code changes and fix the bug with ease.
+Ex : git checkout {ID} >>>>> can revert back to any commit.
+
+Git clone
+This command is used to copy the file from the git repository.
+Not : we are just downloading the copy of the file to the local computer and any changes made here will not affect the files in the git repos.
+
+What happens when you initialize a repository? Why do you need to do it?
+Ans : To initialize git to my work.
+Ex : git init
+Ex: git - status >>>>> Gives the status of untracked files from last commit.
+
