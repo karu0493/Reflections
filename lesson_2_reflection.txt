@@ -1,0 +1,11 @@
+
+What happens when you initialize a repository? Why do you need to do it?
+Ans : To initialize git to my work.
+Ex : git init
+Ex: git - status >>>>> Gives the status of untracked files from last commit.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Ans : Staging area is an intermediate place where we place our files which needs to be committed. Staging area makes it easier to put in logical changes and give a good message to our commit.
+Ex : git add {Filename} >> add file to staging area
+     git add {Filename1} >> add file1 to staging area
+     git status >>> shows which files are in staging area(ready to commit) and which files are not tracked.
