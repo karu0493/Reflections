@@ -24,8 +24,4 @@ Git clone
 This command is used to copy the file from the git repository.
 Not : we are just downloading the copy of the file to the local computer and any changes made here will not affect the files in the git repos.
 
-What happens when you initialize a repository? Why do you need to do it?
-Ans : To initialize git to my work.
-Ex : git init
-Ex: git - status >>>>> Gives the status of untracked files from last commit.
 
