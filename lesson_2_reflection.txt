@@ -9,3 +9,34 @@ Ans : Staging area is an intermediate place where we place our files which needs
 Ex : git add {Filename} >> add file to staging area
      git add {Filename1} >> add file1 to staging area
      git status >>> shows which files are in staging area(ready to commit) and which files are not tracked.
+
+How to compare files in Working directory, staging and repository?
+Ans : git diff >>>> compares Working directory and staging.
+      git diff --staged >> compares staging and repository.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Ans : Branches allows us to keep a safe point and go ahead and try out any new feature which we want to add to our program, keeping our master branch or main file chain safe.
+Default branch : master
+git branch >>>> lists number of branches in git.
+git branch <branch name> >>>> creates new branch.
+git checkout <branch name>  >>>> checks out that branch.
+
+How do the diagrams help you visualize the branch structure?
+Ans : If we checkout any previous commit in a branch and make changes to it and add commit, this commit will be not reachable and we will loose all the changes if we get brack to our working branch, so for this to not happen we can create a new branch and keep that commit there. 
+git checkout -b <branch name>
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Ans : git merge master <branch name>
+      git commit -m <message>
+
+	git show <ID>  >>>> compares it with the parent of it.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+If there is any conflict then we have to manually merge it.
+Use git status >>> to check whether the conflict is resolved.
+
+To merge the master into your branch instead of merging your file into master follow the steps below.
+
+1. checkout the <branch name>
+2. git merge master <branch name>  >>> this will merge the master into your branch.
+ 
